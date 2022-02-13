@@ -1,0 +1,22 @@
+{
+    "name": "implement_Redis_with_Node",
+    "version": "1.0.0",
+    "description": "Este es un ejemplo simple de como  implementar redis con Nodejs como sistema de caché para proporcionar respuestas más rapidas para el cliente en una API Request.",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon src/index.js"
+    },
+    "keywords": ["redis", "api", "caché"],
+    "author": "Jazmín Trujillo",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.22.0",
+      "express": "^4.17.1",
+      "redis": "^3.1.2",
+      "response-time": "^2.3.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.13"
+    }
+  }
+  
